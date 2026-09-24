@@ -1,5 +1,7 @@
 # sesi_pbe1_vps01_consumo_2026
 
+## Exemplo simples de back-end com mockup de dados JSON e funcionalidades CRUD padrão
+
 ## Tecnologias
 - **Node.sj**
 - **JavaScript**
