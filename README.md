@@ -19,16 +19,3 @@ npm run dev
 - 4 Abra o arquivo client/index.html com a extensão `Live Server` do **VsCode**
 
 ---
-# Prints de Teste
-
-![prints](prints/create.png)<br>
-![prints](prints/delete.png)<br>
-![prints](prints/read_all.png)<br>
-![prints](prints/update.png)
-
----
-# Cliente
-
-![prints](prints/index.png)<br>
-- resposta
-![prints](prints/resp.png)
