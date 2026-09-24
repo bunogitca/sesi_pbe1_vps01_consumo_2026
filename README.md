@@ -19,3 +19,7 @@ npm run dev
 - 4 Abra o arquivo client/index.html com a extensão `Live Server` do **VsCode**
 
 ---
+
+
+# Prints de Teste
+
