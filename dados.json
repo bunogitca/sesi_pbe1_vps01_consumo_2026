@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "local": "Secretaria",
+        "equipamento": "Impresora",
+        "consumo_kwh": 102.8,
+        "mes_referencia": "2026-09",
+        "status": "Consumo normal"
+    },
+    {
+        "id": 2,
+        "local": "Refeitório",
+        "equipamento": "Geladeira",
+        "consumo_kwh": 213.0,
+        "mes_referencia": "2026-09",
+        "status": "Consumo normal"
+    },
+    {
+        "id": 3,
+        "local": "Bloco B - Salas",
+        "equipamento": "Ar-condicionado",
+        "consumo_kwh": 532.4,
+        "mes_referencia": "2026-09",
+        "status": "Desperdicio! (Ligado fora de horario)"
+    },
+    {
+        "id": 4,
+        "local": "Bloco A - Salas de Aula",
+        "equipamento": "Sistema de Iluminação LED",
+        "consumo_kwh": 95.0,
+        "mes_referencia": "2026-09",
+        "status": "Otimizado"
+    },
+    {
+        "id": 5,
+        "local": "Sala Maker",
+        "equipamento": "Impresora 3D",
+        "consumo_kwh": 83.7,
+        "mes_referencia": "2026-09",
+        "status": "Consumo normal"
+    }
+]
