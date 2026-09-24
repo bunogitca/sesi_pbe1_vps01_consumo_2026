@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo</title>
+    <link  href="dados.json" rel="import">
+</head>
+<body>
+    <header><h1>Consumo</h1></header>
+    <main>
+        <section>
+            <form action="http://localhost:3000/consumos" method="post">
+                <input type="text" name="local" placeholder="Local" required>
+                <input type="text" name="equipamento" placeholder="Equipamento" required>
+                <input type="number" step="0.01" name="consumow" placeholder="Consumo (W)" required>
+                <input type="date" name="mesref" placeholder="Mês de referência" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <th>local</th>
+                    <th>Equipamento</th>
+                    <th>Consumo (W)</th>
+                    <th>Mês de referência</th>
+                </thead>
+                <tbody id="tabela">
+                    <script>
+                        fetch('http://localhost:3000/consumos')
+                        .then(resp => resp.json())
+                        .then(resp =>{
+                            resp.forEach(p=>{
+                                const linha = document.createElement('tr')
+                                linha.innerHTML = `
+                                    <td>${p.local}</td>
+                                    <td>${p.equipamento}</td>
+                                    <td>${p.consumow}</td>
+                                    <td>${p.mesref}</td>
+                                `
+                                tabela.appendChild(linha)
+                            })
+                        })
+                    </script>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer><h2>by Bruno Vascon</h2></footer>
+</body>
+</html>

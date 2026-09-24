@@ -2,7 +2,7 @@
     {
         "id": 1,
         "local": "Secretaria",
-        "equipamento": "Impresora",
+        "equipamento": "Impressora",
         "consumo_kwh": 102.8,
         "mes_referencia": "2026-09",
         "status": "Consumo normal"
