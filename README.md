@@ -25,3 +25,10 @@ npm run dev
 ![prints](prints/delete.png)<br>
 ![prints](prints/read_all.png)<br>
 ![prints](prints/update.png)
+
+---
+# Cliente
+
+![prints](prints/index.png)<br>
+- resposta
+![prints](prints/resp.png)
