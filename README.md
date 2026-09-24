@@ -23,8 +23,8 @@ npm run dev
 
 # Prints de Teste
 
-![prints teste](buscar.png)
-![prints teste](create.png)
-![prints teste](delete.png)
-![prints teste](read_all.png)
+![prints teste](buscar.png)<br>
+![prints teste](create.png)<br>
+![prints teste](delete.png)<br>
+![prints teste](read_all.png)<br>
 ![prints teste](update.png)
